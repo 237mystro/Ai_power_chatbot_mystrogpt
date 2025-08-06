@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "What's up?",
+        "Yo",
+        "Hi there",
+        "Greetings",
+        "Howdy",
+        "How are you doing?"
+      ],
+      "responses": [
+        "Hey there \ud83d\udc4b!",
+        "Hello! What\u2019s on your mind today?",
+        "Hi! Ready to explore something interesting?",
+        "Greetings, friend \ud83d\ude0a!",
+        "I'm alright thatnk you. Hope you're doing well"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "I'm leaving",
+        "Exit",
+        "Quit",
+        "Talk to you later",
+        "again"
+      ],
+      "responses": [
+        "Goodbye! Come back soon \ud83d\ude0a",
+        "Take care! \ud83d\udc4b",
+        "Catch you later, coder!",
+        "See you around!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "You're helpful",
+        "Much appreciated",
+        "you are so cute"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime \ud83e\udde0",
+        "Glad to help!",
+        "Just here to keep things smooth!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming?",
+        "Explain coding",
+        "Define software development",
+        "What do developers do?",
+        "Why learn coding?"
+      ],
+      "responses": [
+        "Programming is how we talk to computers and get them to do smart things! It powers apps, games, websites\u2014you name it."
+      ]
+    },
+    {
+      "tag": "resource",
+      "patterns": [
+        "Where can I learn coding?",
+        "Best sites to learn programming",
+        "Coding tutorials?",
+        "Show me programming resources"
+      ],
+      "responses": [
+        "Try freeCodeCamp, Codecademy, or NeuralNine on YouTube. Tons of hands-on lessons!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I'm tired",
+        "Feeling lazy",
+        "Not motivated",
+        "Help me keep going",
+        "Need a push"
+      ],
+      "responses": [
+        "Don't quit now\u2014you're closer than you think!",
+        "Start small today. Progress beats perfection!",
+        "Every coder hits a wall. Break through it \ud83d\udcaa"
+      ]
+    },
+  
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Got a pun?",
+        "Cheer me up",
+        "I'm bored",
+        "tell me something new",
+        "that you are a dumb ass",
+        "tell me more"
+      ],
+      "responses": [
+        "Why did the Python file break up with the Java file? They had too many class issues \ud83d\udc0d",
+        "Debugging: Being the detective in a crime movie where you are also the murderer \ud83d\ude02",
+        "I would tell you a UDP joke... but you might not get it."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is AI?",
+        "Define artificial intelligence",
+        "Explain deep learning",
+        "What is machine learning?"
+      ],
+      "responses": [
+        "AI helps computers act smart\u2014like recognizing faces, chatting like I do, or driving cars!",
+        "Machine learning lets systems learn from data instead of being explicitly programmed.",
+        "Deep learning is like teaching machines with layered brains called neural networks."
+      ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What's the time?",
+        "Give me today's date",
+        "What day is it?",
+        "Tell me the time now"
+      ],
+      "responses": [
+        "I can't see your clock \ud83d\ude05, but your device sure can!",
+        "Check the corner of your screen \ud83d\ude09",
+        "It\u2019s a great day to learn something!"
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "What is 2 plus 2?",
+        "Solve 5*3",
+        "Can you do math?",
+        "What's 10 divided by 2?",
+        "Calculate something"
+      ],
+      "responses": [
+        "Sure! 2 + 2 = 4 \u2705",
+        "Math is my jam: 5 \u00d7 3 = 15 \ud83d\udcaf",
+        "Ask me anything\u2014I'm faster than a calculator!"
+      ]
+    },
+    {
+      "tag": "emotion",
+      "patterns": [
+        "I'm sad",
+        "Feeling happy",
+        "I'm excited",
+        "I'm bored",
+        "I'm angry",
+        "i'm asking that what is that"
+      ],
+      "responses": [
+        "I'm here with you\u2014want a joke or a distraction?",
+        "Excited? Let\u2019s channel that energy into building something cool!",
+        "Sad days come and go. Coding is therapy for some \ud83d\udc68\u200d\ud83d\udcbb",
+        "Boredom is a blank canvas\u2014let's color it with an idea \ud83d\udca1"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I don't know",
+        "What should I do?",
+        "Any ideas?",
+        "Just vibing",
+        "Anything cool?",
+        "what idea do u have",
+        "what idea do u like"
+      ],
+      "responses": [
+        "Let\u2019s explore AI together \ud83e\udd16",
+        "You could sketch a chatbot idea or explore computer vision!",
+        "Want a random fact or coding challenge?"
+      ]
+    }
+  ]
+}
